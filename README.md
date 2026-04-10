@@ -14,20 +14,23 @@ A macOS app that removes the background from a black & white image or animated G
 - Rounded corners on the menu bar icon
 - Right-click the menu bar icon to show the window, load a new image, or quit
 
-## Setup
+## Run
 
 ```bash
-pip install PyQt6 Pillow numpy
-python main.py
+git clone https://github.com/YOUR_USERNAME/MenuBarImageMaker.git
+cd MenuBarImageMaker
+./run.sh
 ```
+
+`run.sh` installs dependencies automatically then launches the app.
+
+> Requires Python 3.9+ and macOS.
 
 ## Build a standalone .app
 
 ```bash
-pip install pyinstaller
-python -m PyInstaller MenuBarImageMaker.spec --noconfirm
+pip3 install pyinstaller
+python3 -m PyInstaller MenuBarImageMaker.spec --noconfirm
 ```
 
 The built app lands in `dist/`. Drag it to `/Applications` to install.
-# Mac-Menu-Bar-Image-Maker
-# Mac-Menu-Bar-Image-Maker
