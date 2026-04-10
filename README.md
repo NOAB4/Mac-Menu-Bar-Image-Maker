@@ -17,8 +17,8 @@ A macOS app that removes the background from a black & white image or animated G
 ## Run
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/MenuBarImageMaker.git
-cd MenuBarImageMaker
+git clone https://github.com/YOUR_USERNAME/Mac-Menu-Bar-Image-Maker.git
+cd Mac-Menu-Bar-Image-Maker
 ./run.sh
 ```
 
