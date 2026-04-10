@@ -34,3 +34,13 @@ python3 -m PyInstaller MenuBarImageMaker.spec --noconfirm
 ```
 
 The built app lands in `dist/`. Drag it to `/Applications` to install.
+
+ ## Uninstall                                                                                                                                                                                                 
+                                                                                                                                                                                                               
+  Delete the cloned folder:                                                                                                                                                                                    
+                                                            
+  ```bash
+  rm -rf Mac-Menu-Bar-Image-Maker
+                                                                                                                                                                                                               
+  If you built the .app, also drag it out of /Applications.                                                                                                                                                    
+  ```           
