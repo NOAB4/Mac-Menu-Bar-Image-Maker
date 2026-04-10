@@ -30,3 +30,4 @@ python -m PyInstaller MenuBarImageMaker.spec --noconfirm
 
 The built app lands in `dist/`. Drag it to `/Applications` to install.
 # Mac-Menu-Bar-Image-Maker
+# Mac-Menu-Bar-Image-Maker
